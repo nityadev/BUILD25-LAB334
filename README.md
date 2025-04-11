@@ -1,28 +1,37 @@
-# Project
+# LAB 334: Evaluate Reasoning Models For Your Generative AI Solutions
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
 
-As the maintainer of this project, please make a few updates:
+> [!IMPORTANT]  
+> This repository contains materials for Microsoft Build 2025 Lab 334. This is a hands-on 75-minute workshop delivered via the Skillable platform (in-venue). It can also be completed as a self-guided workshop at your own pace (at home).
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+## Workshop Description
 
-## Contributing
+Reasoning models excel at complex problem-solving tasks and nuanced analysis - but how do you know if they are the right fit for your task? In this workshop, we'll take you on a journey from catalog to cloud as we explore the capabilities and limitations of reasoning models, using an enterprise catering application scenario with complex scheduling and inventory constraints. Compare and contrast reasoning approaches visually (with the inference API) and qualitatively (with evaluators) - and build your intuition for the tradeoffs involved.
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+- **Level:** Beginner
+- **Duration:** 75 minutes
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+## Learning Objectives
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+By the end of this workshop you should be able to:
+
+1. Explain how reasoning models work, and when to use them
+1. Discover and compare reasoning and non-reasoning models in the browser
+1. Deploy selected reasoning models to Azure AI Foundry for development
+1. Interact with reasoning models, code-first, using the Azure AI inference SDK.
+1. Understand prompt engineering technniques and best practices to improve quality
+
+## Pre-Requisites
+
+To complete this lab you need:
+
+1. A GitHub account - with access to GitHub Codespaces
+1. An Azure subscription - with quota for the required models
+1. Familiarity with Python - or a high-level programming language
+1. Familiarity with Large Language Models - and generative AI concepts
+
+_An Azure subscription pre-provisioned with the required models and application infrastructure will be made available to Microsoft Build Lab 334 attendees in-venue, for the duration of the session._
+
 
 ## Trademarks
 
