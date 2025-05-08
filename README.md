@@ -1,5 +1,8 @@
-# LAB 334: Evaluate Reasoning Models For Your Generative AI Solutions
+<p align="center">
+<img src="img/banner.jpg" alt="decorative banner" width="1200"/>
+</p>
 
+# LAB 334: Evaluate Reasoning Models For Your Generative AI Solutions
 
 > [!IMPORTANT]  
 > This repository contains materials for Microsoft Build 2025 Lab 334. This is a hands-on 75-minute workshop delivered via the Skillable platform (in-venue). It can also be completed as a self-guided workshop at your own pace (at home).
@@ -31,6 +34,14 @@ To complete this lab you need:
 1. Familiarity with Large Language Models - and generative AI concepts
 
 _An Azure subscription pre-provisioned with the required models and application infrastructure will be made available to Microsoft Build Lab 334 attendees in-venue, for the duration of the session._
+
+## Session Resources 
+
+The material in this repo was presented at Microsoft Build 2025 under the session title "Evaluate Reasoning Models For Your Generative AI Solutions". Please access these links for the session materials, recording, and Learn resources. 
+
+| Resources          | Links                             | Description        |
+|:-------------------|:----------------------------------|:-------------------|
+| Build session page | https://build.microsoft.com/sessions/SESSIONCODE | Event session page with downloadable recording, slides, resources, and speaker bio |
 
 
 ## Trademarks
