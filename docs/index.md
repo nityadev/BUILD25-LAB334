@@ -1,11 +1,9 @@
-<p align="center">
-<img src="img/banner.jpg" alt="decorative banner" width="1200"/>
-</p>
+---
+title : "MSBuild Lab334"
+description: "LAB334: Evaluate and improve the quality and safety of your AI applications"
+---
 
-# LAB 334: Evaluate and improve the quality and safety of your AI applications
-
-> [!IMPORTANT]  
-> This repository contains materials for Microsoft Build 2025 Lab 334. This is a hands-on 75-minute workshop delivered via the Skillable platform (in-venue). It can also be completed as a self-guided workshop at your own pace (at home).
+# Evaluate and improve the quality and safety of your AI applications"
 
 ## Workshop Description
 
@@ -14,6 +12,7 @@ You’ve built a custom AI application grounded in your enterprise data. **How d
 - **Level:** Intermediate/Advanced
 - **Duration:** 75 minutes
 
+---
 
 ## Learning Objectives
 
@@ -26,7 +25,12 @@ By the end of this workshop you should be able to:
 1. Understand and use simulators to create datasets for evaluations
 1. Run manual evaluations and view results in the Azure AI Foundry portal
 
+
+---
+
 ## Pre-Requisites
+
+!!! info "IN-VENUE PARTICIPANTS: We provide an Azure subscription for your use, during the session"
 
 To complete this lab you need:
 
@@ -35,20 +39,24 @@ To complete this lab you need:
 1. Familiarity with Python → and usage of Jupyter notebooks
 1. Familiarity with Generative AI → basic tools and concepts
 
+!!! quote "AT-HOME PARTICIPANTS: We provide guidance to help you use your own Azure subscription"
 
-_An Azure subscription pre-provisioned with the required models and application infrastructure will be made available to Microsoft Build Lab 334 attendees in-venue, for the duration of the session._
+---
 
-## Quickstart
+## Content Tracks
 
-To get started on this lab at home, follow these steps:
+The in-venue sessions are **75 minutes** - 15-min instructor talk with 60-mins hands-on labs. The lab is also setup for self-paced learning (no time limit) using your own subscription at home.
 
-1. Fork this repo to your personal profile
-1. Launch GitHub Codespaces - wait till ready
-1. Open the VS Code terminal in codespaces - run `mkdocs serve`
-1. Select the browser option in the pop-up dialog
-1. **You will see a preview of the instruction guide in a new tab**
-1. Click the "Workshop" menu item - and get started.
+To support both kinds of learning (time-constrained in venue, self-paced at home) we have organized content into two "tracks"
 
+1. **Workshop** - this track is for the in-venue attendees. Our goal is to get you through the content within 60 minutes while meeting the learning objectives.
+1. **Homework** - this tracks is for _continuing the learning journey_ at home. This allows you to build on what you learned in venue and explore at your own pace.
+
+!!! info "In-Venue Attendees: You will have a personal copy of this repo by the end of the workshop"
+
+    You can now revisit the repo at home, with your own subscription, to explore all the content at your own pace - with your personal subscription. The workshop track till also identify **Homework** segments that we encourage you to try out at home, to further build intuition for that specific topic.
+
+---
 
 ## Questions & Feedback
 
@@ -57,11 +65,3 @@ We welcome feedback to help us improve the learning experience.
 1. [File an issue](https://github.com/microsoft/BUILD25-LAB334/issues/new). We welcome feedback on ways to improve the workshop for future learners.
 1. [Join the Azure AI Foundry Discord](https://aka.ms/azureaifoundry/discord). Meet Azure AI community members and share insights.
 1. [Visit the Azure AI Foundry Developer Forum](https://aka.ms/azureaifoundry/forum). Get the latest updates on Azure AI Foundry.
-
-## Session Resources 
-
-The material in this repo was presented at Microsoft Build 2025 under the session title "Evaluate Reasoning Models For Your Generative AI Solutions". Please access these links for the session materials, recording, and Learn resources. 
-
-| Resources          | Links                             | Description        |
-|:-------------------|:----------------------------------|:-------------------|
-| Build session page | https://build.microsoft.com/sessions/LAB334 | Event session page with downloadable recording, slides, resources, and speaker bio |
