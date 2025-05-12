@@ -1,18 +1,24 @@
-# ------ Lab 334 Requirements ------
-
 # Basic Python Support
 pandas
 python-dotenv
 
+# Samples
+aiohttp
+bs4
+jinja2
+wikipedia
+typing
+
 # OpenAI
-openai
+openai==1.77
 
 # Azure 
-azure-ai-projects
 azure-identity
-azure-ai-evaluation
-azure-ai-inference
+azure-ai-evaluation==1.6.0
+
+azure-ai-projects
 azure-search-documents
+azure-ai-inference
 
 # Guide
-mkdocs-material
+# mkdocs-material
