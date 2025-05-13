@@ -7,30 +7,34 @@ description: "LAB334: Evaluate and improve the quality and safety of your AI app
 
 ## Workshop Description
 
-You’ve built a custom AI application grounded in your enterprise data. **How do you ensure response quality and safety?** Join us as we explore AI-assisted evaluation workflows with built-in and custom evaluators on Azure AI. Learn what each metric represents, then understand how to analyze the scores for your specific application. Learn why observability is key, and how the generated telemetry can be used both locally, and in the cloud, to help you assess and debug your application performance.  
+You want to build a custom AI application grounded in your enterprise data. **How do you ensure response quality and safety** so you can build the trust and confidence of your users?
 
-- **Level:** Intermediate/Advanced
-- **Duration:** 75 minutes
+In this hands-on workshop, we'll explore the role of evaluations in the GenAIOps lifecycle and learn to use the Azure AI Foundry evaluations SDK to simulate test datasets, run built-in quality and safety evaluators, create custom evaluators, and visualize & analyze evaluation results. 
+
+**Level:** Intermediate/Advanced. <br/>
+**Duration:** 75 minutes
 
 ---
 
 ## Learning Objectives
 
-By the end of this workshop you should be able to:
+This workshop helps you get a practical understanding of the capabilities of the Azure AI Foundr `azure-ai-evaluations` SDK. By completing the core Workshop track you'll be able to:
 
-1. Explain key evaluation metrics and workflows for GenAIOps
-1. Create and run code-first evaluations with your Azure AI project
-1. Understand and use built-in evaluators for quality and safety
-1. Understand and use custom evaluators for your application needs
-1. Understand and use simulators to create datasets for evaluations
-1. Run manual evaluations and view results in the Azure AI Foundry portal
 
+1. Explain the role of evaluations at all stages of the GenAIOps lifecycle
+1. Use this Azure AI Foundry SDK to generate datasets for evaluation
+1. Use this Azure AI Foundry portal to evaluate and compare models, manually
+1. Use this Azure AI Foundry SDK to run built-in quality and safety evaluators
+1. Use this Azure AI Foundry SDK to build and run custom evaluators for your app
+1. Understand how to analyze evaluation results, visually, in Azure AI Foundry portal
 
 ---
 
 ## Pre-Requisites
 
-!!! info "IN-VENUE PARTICIPANTS: We provide an Azure subscription for your use, during the session"
+!!! info "IN-VENUE PARTICIPANTS: You will be given a pre-provisioned Azure Subscription for this lab"
+
+!!! quote "AT-HOME PARTICIPANTS: You will provision your own Azure subscription using instructions provided"
 
 To complete this lab you need:
 
@@ -39,22 +43,19 @@ To complete this lab you need:
 1. Familiarity with Python → and usage of Jupyter notebooks
 1. Familiarity with Generative AI → basic tools and concepts
 
-!!! quote "AT-HOME PARTICIPANTS: We provide guidance to help you use your own Azure subscription"
 
 ---
 
 ## Content Tracks
 
-The in-venue sessions are **75 minutes** - 15-min instructor talk with 60-mins hands-on labs. The lab is also setup for self-paced learning (no time limit) using your own subscription at home.
+!!! info "IN-VENUE PARTICIPANTS: Prioritize completing the Workshop track before exploring Homework labs"
 
-To support both kinds of learning (time-constrained in venue, self-paced at home) we have organized content into two "tracks"
+The content is structured in two parts:
 
-1. **Workshop** - this track is for the in-venue attendees. Our goal is to get you through the content within 60 minutes while meeting the learning objectives.
-1. **Homework** - this tracks is for _continuing the learning journey_ at home. This allows you to build on what you learned in venue and explore at your own pace.
+1. A core **Workshop Track** that can be completed in under an hour (e.g., in-venue)
+1. A bonus **Homework Track** that can be completed at home (i.e., at your own pace)
 
-!!! info "In-Venue Attendees: You will have a personal copy of this repo by the end of the workshop"
-
-    You can now revisit the repo at home, with your own subscription, to explore all the content at your own pace - with your personal subscription. The workshop track till also identify **Homework** segments that we encourage you to try out at home, to further build intuition for that specific topic.
+Doing the homework track will require you to **have your own subscription** to work on at home.  We'll provide guidance to help you do this - just pick the "Self-Guided" learning path at home.
 
 ---
 

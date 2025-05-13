@@ -1,22 +1,17 @@
 # General ...................................................
-site_name: MSBuild 2025 - Lab 334
-site_url: https://microsoft.github.io/Build25-Lab334
+site_name: Azure AI Foundry Evaluations
+site_url: https://nityadev.github.io/learn-evaluations
 site_author: Nitya Narasimhan
 site_description: >-
-  Workshop on understanding evaluation tools and workflows for Generative AI
+  Workshop on exploring Azure AI Evalautions
 
 # Repository .................................................
-repo_name: microsoft/Build25-lab334
-repo_url: https://github.com/microsoft/Build25-lab334
+repo_name: nityadev/learn-evaluations
+repo_url: https://github.com/nityadev/learn-evaluations
 
 # Copyright ...................................................
 copyright: >
-  &copy; 2025 Microsoft &nbsp;|&nbsp;
-  <a href="https://go.microsoft.com/fwlink/?LinkId=521839">Privacy </a>&nbsp;|&nbsp;
-  <a href="https://go.microsoft.com/fwlink/?LinkId=2259814">Consumer Health Privacy </a>&nbsp;|&nbsp;
-  <a onclick="window.manageConsent();">Cookies </a>&nbsp;|&nbsp;
-  <a href="https://go.microsoft.com/fwlink/?LinkID=206977">Terms of Use </a>&nbsp;|&nbsp;
-  <a href="https://www.microsoft.com/trademarks">Trademarks </a>
+  &copy; 2025 Nitya Narasimhan
 
 
 # Configuration ...............................................
@@ -57,11 +52,10 @@ theme:
     - navigation.footer
     - content.code.copy             # allow copy-paste from codeblocks
     - content.tabs.link             # Ensures site-wide switch to same tab name
-    
+
 # Extras  ...............................................
 extra:
   generator: false
-
 # Plugins  ...............................................
 plugins:
   - search

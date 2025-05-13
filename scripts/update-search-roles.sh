@@ -1,18 +1,13 @@
 #!/bin/bash
-echo "--- ✅ | POST-PROVISIONING: Update RBAC permissions---"
-# Use this when pre-provisioning with azd
-#   - Refresh env: azd env refresh -e AITOUR
-#   - Run this script: bash docs/workshop/0-setup/azd-update-roles.sh
-#   - Then run hooks: azd hooks run postprovision
-#   - Should update database, index and deploy app
+echo "--- ✅ | SEARCH SERVICE: Update RBAC permissions---"
 
 # Exit shell immediately if command exits with non-zero status
 set -e
 # Load variables from .env file in parent directory into your shell
-if [ -f ../.env ]; then
-    source ../.env
+if [ -f .env ]; then
+    source .env
 else
-    echo "../.env file not found!"
+    echo ".env file not found!"
     exit 1
 fi
 
@@ -28,8 +23,6 @@ echo "REGION: $REGION"
 echo "SUBSCRIPTION_ID: $SUBSCRIPTION_ID"
 echo "RESOURCE_GROUP: $RESOURCE_GROUP"
 echo "AI_PROJECT: $AI_PROJECT"
-
-
 
 # -------------- Create any additional RBAC roles required -------------------------
 
@@ -62,32 +55,5 @@ az role assignment create \
         --assignee-object-id "${PRINCIPAL_ID}" \
         --scope /subscriptions/"${SUBSCRIPTION_ID}"/resourceGroups/"${RESOURCE_GROUP}" \
         --assignee-principal-type 'User'
-
-
-# ------ See CosmosDB built-in roles for DATA plane
-# https://aka.ms/cosmos-native-rbac
-# Note: Azure CosmosDB data plane roles are distinct from built-in Azure control plane roles
-# See: https://learn.microsoft.com/en-us/azure/data-explorer/ingest-data-cosmos-db-connection?tabs=arm#step-2-create-a-cosmos-db-data-connection
-# See: infra/core/security/role-cosmos.bicep to understand what we need to set
-
-# Gets account name
-COSMOSDB_NAME=$(az cosmosdb list --resource-group ${RESOURCE_GROUP} --query "[0].name" -o tsv)
-
-# Cosmos DB Built-in Data Contributor - grant access to specific db
-az cosmosdb sql role assignment create \
-        --account-name "${COSMOSDB_NAME}" \
-        --resource-group "${RESOURCE_GROUP}" \
-        --role-definition-name "Cosmos DB Built-in Data Contributor" \
-        --scope "/dbs/contoso-outdoor/colls/customers" \
-        --principal-id "${PRINCIPAL_ID}"
-
-
-# Try this instead recommended by docs --- Data Plane
-az cosmosdb sql role assignment create \
-        --account-name "${COSMOSDB_NAME}" \
-        --resource-group "${RESOURCE_GROUP}" \
-        --role-definition-id 00000000-0000-0000-0000-000000000001 \
-        --scope "/" \
-        --principal-id "${PRINCIPAL_ID}"
 
 echo "--- ✅ | POST-PROVISIONING: RBAC permissions updated---"
