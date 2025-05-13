@@ -1,40 +1,35 @@
-# Evaluate and improve the quality and safety of your AI applications"
+<p align="center">
+<img src="img/banner.jpg" alt="decorative banner" width="1200"/>
+</p>
+
+# LAB 334: Evaluate and improve the quality and safety of your AI applications
 
 > [!IMPORTANT]  
 > This lab is designed for use in both **instructor-led** (75-mins, in-venue) and **self-guided** (self-paced, at home) sessions.
 > 1. **Instructor-led** session attendees. Listen to the in-venue instructions and follow directions in the Skillable VM panel.
 > 1. **Self-guided** session attendees. You will need to take a few extra steps for setup. Start with the [Self-Guided: Quickstart](#self-guided-quickstart) below.
 
+
 ## Workshop Description
 
-You’ve been asked to build a custom AI application grounded in your enterprise data. **How do you ensure that acceptable response quality and safety** to build the trust and confidence of your users.
+You’ve built a custom AI application grounded in your enterprise data. **How do you ensure response quality and safety?** Join us as we explore AI-assisted evaluation workflows with built-in and custom evaluators on Azure AI. Learn what each metric represents, then understand how to analyze the scores for your specific application. Learn why observability is key, and how the generated telemetry can be used both locally, and in the cloud, to help you assess and debug your application performance.  
 
-In this hands-on workshop, we'll explore the role of evaluations in the GenAIOps lifecycle and learn to use the Azure AI Foundry evaluations SDK to simulate test datasets, run built-in quality and safety evaluators, create custom evaluators, and visualize & analyze evaluation results. 
+- **Level:** Intermediate/Advanced
+- **Duration:** 75 minutes
 
-**Level:** Intermediate/Advanced. <br/>
-**Duration:** 75 minutes
-
----
 
 ## Learning Objectives
 
-This workshop helps you get a practical understanding of the capabilities of the Azure AI Foundr `azure-ai-evaluations` SDK. By completing the core Workshop track you'll be able to:
+By the end of this workshop you should be able to:
 
-
-1. Explain the role of evaluations at all stages of the GenAIOps lifecycle
-1. Use this Azure AI Foundry SDK to generate datasets for evaluation
-1. Use this Azure AI Foundry portal to evaluate and compare models, manually
-1. Use this Azure AI Foundry SDK to run built-in quality and safety evaluators
-1. Use this Azure AI Foundry SDK to build and run custom evaluators for your app
-1. Understand how to analyze evaluation results, visually, in Azure AI Foundry portal
-
----
+1. Explain key evaluation metrics and workflows for GenAIOps
+1. Create and run code-first evaluations with your Azure AI project
+1. Understand and use built-in evaluators for quality and safety
+1. Understand and use custom evaluators for your application needs
+1. Understand and use simulators to create datasets for evaluations
+1. Run manual evaluations and view results in the Azure AI Foundry portal
 
 ## Pre-Requisites
-
-!!! info "IN-VENUE PARTICIPANTS: You will be given a pre-provisioned Azure Subscription for this lab"
-
-!!! quote "AT-HOME PARTICIPANTS: You will provision your own Azure subscription using instructions provided"
 
 To complete this lab you need:
 
@@ -43,42 +38,21 @@ To complete this lab you need:
 1. Familiarity with Python → and usage of Jupyter notebooks
 1. Familiarity with Generative AI → basic tools and concepts
 
-
----
-
-## Content Tracks
-
-!!! info "IN-VENUE PARTICIPANTS: Prioritize completing the Workshop track before exploring Homework labs"
-
-The content is structured in two parts:
-
-1. A core **Workshop Track** that can be completed in under an hour (e.g., in-venue)
-1. A bonus **Homework Track** that can be completed at home (i.e., at your own pace)
-
-Doing the homework track will require you to **have your own subscription** to work on at home.  The instructions will show you how to fork the repo to get a personal copy, to continue working on at home.
-
----
+_An Azure subscription pre-provisioned with the required models and application infrastructure will be made available to Microsoft Build Lab 334 attendees in-venue, for the duration of the session._
 
 ## Self-Guided: Quickstart
 
-Working on the lab at home with your own Azure subscription? Then use these instructions to get started.
+To get started on this lab at home, follow these steps:
 
-1. Fork this repo to your GitHub profile - this is your sandbox
-    1. Open the fork in a new browser tab - keep this open (_Tab 1_)
-    1. Click the green **Code** dropdown - select the **Codespaces** tab
-    1. Click the **Create codespaces on main** - it opens a new tab
-1. Wait for **GitHub Codespaces** to load - keep this open (_Tab 2_)
-    1. Wait for VS Code Terminal to activate - type `mkdocs serve > /dev/null 2>&1 &`
-    1. Wait for a pop-up dialog - select the **Browser** option
-1. You should see a new browser tab with an Instruction guide
-    1. Select the **`1 Workshop`** menu option - keep this open (_Tab 3_)
+1. Fork this repo to your personal profile
+1. Launch GitHub Codespaces - wait till ready
+1. Open the VS Code terminal in codespaces 
+1. Run `mkdocs serve > /dev/null 2>&1 &`
+1. Select the browser option in the pop-up dialog
 
-**You are now ready to start the labs** 
 
-- Select the **I am a self-guided learner** tab.
-- Follow instructions from here to complete the labs.
+**You will see a preview of the instruction guide in a new tab**. Click the "Workshop" menu item - and get started.
 
----
 
 ## Questions & Feedback
 
@@ -87,3 +61,24 @@ We welcome feedback to help us improve the learning experience.
 1. [File an issue](https://github.com/microsoft/BUILD25-LAB334/issues/new). We welcome feedback on ways to improve the workshop for future learners.
 1. [Join the Azure AI Foundry Discord](https://aka.ms/azureaifoundry/discord). Meet Azure AI community members and share insights.
 1. [Visit the Azure AI Foundry Developer Forum](https://aka.ms/azureaifoundry/forum). Get the latest updates on Azure AI Foundry.
+
+
+## Session Resources 
+
+The material in this repo was presented at Microsoft Build 2025 under the session title "Evaluate Reasoning Models For Your Generative AI Solutions". Please access these links for the session materials, recording, and Learn resources. 
+
+| Resources          | Links                             | Description        |
+|:-------------------|:----------------------------------|:-------------------|
+| Build session page | https://build.microsoft.com/sessions/LAB334 | Event session page with downloadable recording, slides, resources, and speaker bio |
+
+
+
+
+
+
+
+
+
+
+
+
