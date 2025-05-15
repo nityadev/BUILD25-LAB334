@@ -1,6 +1,6 @@
 # Basic Python Support
-pandas
-python-dotenv
+pandas==2.2.3
+python-dotenv==1.1.0
 
 # Samples
 aiohttp
@@ -13,12 +13,12 @@ typing
 openai==1.77
 
 # Azure 
-azure-identity
+azure-identity==1.22.0
 azure-ai-evaluation==1.6.0
 
-azure-ai-projects
-azure-search-documents
-azure-ai-inference
+azure-ai-projects==1.0.0b10
+azure-search-documents==11.4.0
+azure-ai-inference==1.0.0b9
 
 # Guide
 # mkdocs-material
