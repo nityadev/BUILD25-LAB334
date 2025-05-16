@@ -10,11 +10,11 @@ wikipedia
 typing
 
 # OpenAI
-openai==1.77
+openai==1.78
 
 # Azure 
 azure-identity==1.22.0
-azure-ai-evaluation==1.6.0
+azure-ai-evaluation==1.7.0
 
 azure-ai-projects==1.0.0b10
 azure-search-documents==11.4.0
