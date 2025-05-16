@@ -20,39 +20,39 @@ We will work on this lab within a GitHub Codespaces environment.
 2. Visit ++https://aka.ms/build25/lab334/prebuild++ - for lab repo.
 3. Click **Create codespace** - launches pre-built codespaces in tab.
 4. Keep the tab open and wait for the VS Code terminal to be active.
-5. Type ++mkdocs serve++ - select the browser option in pop-up.
+5. Type ++mkdocs serve > /dev/null 2>&1 &++ - select the browser option in pop-up.
 6. You should now see the lab instructions preview in the browser.
 
 _Wait for instructor guidance to continue_.
 
-
 ## 2. Azure Credentials
 
-You will be assigned a temporary Azure subscription for this lab. Verify that the _Username_ and _Password_ credentials are not empty below. We will use them during setup.
+You are given a temporary Azure subscription for this lab. Verify that the _Username_ and _Password_ credentials are defined below. 
 
 - **Username:** ++@lab.CloudPortalCredential(User1).Username++
 - **Password:** ++@lab.CloudPortalCredential(User1).Password++
 
+_Use these when asked to log into Azure during the lab_.
+
+
 ## 3. Skillable VM Credentials
 
-The Skillable VM has a login screen (left) that we do **NOT** need to use today. However, we may need it for troubleshooting (with proctor help). The credentials below will be useful for logging in then.
-
-- +++@lab.VirtualMachine(WRK550-Win11(NEW)).Username+++
-- +++@lab.VirtualMachine(WRK550-Win11(NEW)).Password+++
+The Skillable VM has a login screen (left). We **DO NOT USE** this so the credentials are hidden.
 
 
 ## 4. Time Tracking
 
-This Skillable page has a countdown timer (top right) that will show **Hours Remaining** for lab completion. Use this to track time left and decide if you want to do optional steps accordingly. 
+This Skillable page has a countdown timer (top right).
 
-- You should start with at least 1h 15min on the clock.
-- You will be notified when there are 10 mins left
-- When timer expires, the VM will terminate automatically!
+- This shows **Time Remaining** for lab completion.
+- You are notified 10 min before expiry - with option to extend.
+- When timer expires - VM is terminated automatically.
 
 ## 5. Revisiting Lab at Home
 
-By the end of this workshop, you will have a copy of the sample app in your personal GitHub profile. Revisit it at home to explore and complete sections at your own pace. 
+Want to retake or continue the workshop at your own pace, at home?
 
-1. You will need your own Azure subscription for this.
-1. You will need to set the "Before You Begin" tab to **Self-Guided** 
-1. Then continue working through the lab steps there.
+1. Fork the repo to your own profile and star the repo
+1. Follow Self-Guided instructions in the profile README.md
+1. Set the **Before You Begin** selector to "Self-Guided"
+1. Work through the labs using the instructor guide as before.

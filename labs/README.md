@@ -70,7 +70,7 @@ Our development environment is connected to Azure. To work with the Azure AI pro
     AZURE_OPENAI_ENDPOINT=
     AZURE_OPENAI_API_KEY=
     AZURE_OPENAI_CHAT_DEPLOYMENT="gpt-4o-mini"
-    AZURE_OPENAI_EVAL_DEPLOYMENT="gpt4"
+    AZURE_OPENAI_EVAL_DEPLOYMENT="gpt-4"
     AZURE_OPENAI_API_VERSION="2025-01-01-preview"
 
     AZURE_AI_CONNECTION_STRING=

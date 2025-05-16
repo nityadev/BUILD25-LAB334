@@ -1,13 +1,13 @@
 # General ...................................................
 site_name: Azure AI Foundry Evaluations
-site_url: https://nityadev.github.io/learn-evaluations
+site_url: https://nityadev.github.io/BUILD25-LAB334
 site_author: Nitya Narasimhan
 site_description: >-
   Workshop on exploring Azure AI Evalautions
 
 # Repository .................................................
-repo_name: nityadev/learn-evaluations
-repo_url: https://github.com/nityadev/learn-evaluations
+repo_name: microsoft/BUILD25-LAB334
+repo_url: https://github.com/microsoft/BUILD25-LAB334
 
 # Copyright ...................................................
 copyright: >
