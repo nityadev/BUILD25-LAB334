@@ -1,0 +1,5 @@
+{"query":"When was United Stated found ?","ground_truth":"1776"}
+{"query":"What is the capital of France?","ground_truth":"Paris"}
+{"query": "Which tent is the most waterproof?", "ground_truth": "The Alpine Explorer Tent has the highest rainfly waterproof rating at 3000m"}
+{"query": "Which camping table holds the most weight?", "ground_truth": "The Adventure Dining Table has a higher weight capacity than all of the other camping tables mentioned"}
+{"query": "What is the weight of the Adventure Dining Table?", "ground_truth": "The Adventure Dining Table weighs 15 lbs"}
