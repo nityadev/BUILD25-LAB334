@@ -18,15 +18,14 @@ In this hands-on workshop, we'll explore the role of evaluations in the GenAIOps
 
 ## Learning Objectives
 
-This workshop helps you get a practical understanding of the capabilities of the Azure AI Foundr `azure-ai-evaluations` SDK. By completing the core Workshop track you'll be able to:
-
+This workshop helps you get a practical understanding of the capabilities of the Azure AI Foundry `azure-ai-evaluations` SDK. By completing the core Workshop track you'll be able to:
 
 1. Explain the role of evaluations at all stages of the GenAIOps lifecycle
-1. Use this Azure AI Foundry SDK to generate datasets for evaluation
-1. Use this Azure AI Foundry portal to evaluate and compare models, manually
-1. Use this Azure AI Foundry SDK to run built-in quality and safety evaluators
-1. Use this Azure AI Foundry SDK to build and run custom evaluators for your app
-1. Understand how to analyze evaluation results, visually, in Azure AI Foundry portal
+1. Use the SDK **simulator** to generate synthetic datasets for evaluations
+1. Use the SDK **built-in evaluators** for quality and safety assessments
+1. Use the SDK **custom evaluator** support to define and use custom metrics
+1. Use the SDK **evaluate** flow to run batch evaluations with multiple evaluators
+1. View and analyze evaluation results locally, and using the Azure AI Foundry portal
 
 ---
 
@@ -38,24 +37,25 @@ This workshop helps you get a practical understanding of the capabilities of the
 
 To complete this lab you need:
 
-1. A personal GitHub account → create one for free if needed
-1. An Azure subscription → with quota for the required models
-1. Familiarity with Python → and usage of Jupyter notebooks
-1. Familiarity with Generative AI → basic tools and concepts
+- [X] A personal GitHub account → create one for free if needed
+- [X] An Azure subscription → with quota for the required models
+- [X] Familiarity with Python → we'll make use of Jupyter notebooks
+- [X] Familiarity with Generative AI concepts and workflows
 
 
 ---
 
 ## Content Tracks
 
-!!! info "IN-VENUE PARTICIPANTS: Prioritize completing the Workshop track before exploring Homework labs"
+!!! info "IN-VENUE PARTICIPANTS: We will prioritize the Workshop Track for completion!"
 
 The content is structured in two parts:
 
-1. A core **Workshop Track** that can be completed in under an hour (e.g., in-venue)
-1. A bonus **Homework Track** that can be completed at home (i.e., at your own pace)
+1. **Workshop Track** - learn core fundamentals in 75 minutes, _in-venue_
+1. **Homework Track** - continue learning at your own pace, _at-home_
 
-Doing the homework track will require you to **have your own subscription** to work on at home.  We'll provide guidance to help you do this - just pick the "Self-Guided" learning path at home.
+_The entire lab is setup for self-paced learning at home, with your own Azure subscription. The guide provides instructions on how to do this under the "Self-Guided" tabs_.
+
 
 ---
 
